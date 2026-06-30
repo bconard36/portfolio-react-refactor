@@ -9,8 +9,6 @@ third-party integrations.
 - public: houses all public files to be served 
     - files: houses resume file available for download
         - June2026_DeveloperResume.pdf: a downloadable copy of my most current resume
-    - favicon.svg: placeholder favicon (Vite default)
-    - icons.svg: stock Vite image file
 - src: parent folder for components, stylesheets, and assets
     - assets: parent folder for all image files 
         - About.jsx
