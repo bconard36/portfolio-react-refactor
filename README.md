@@ -28,11 +28,11 @@ third-party integrations.
         - School.jsx: Reusable education card component
         - SkillCard.jsx: Skill card with hover/tap interaction
         - Skills.jsx: Skills section 
-- .gitignore: A list of files intentionally ignored by Git  
+- .gitignore
 - eslint.config.js 
-- index.html: Renders the app - acts as the connecting point between the app and the browser 
-- package-lock.json: Locks project dependency versions for consistent installations 
-- package.json: Defines the project dependencies and scripts necessary for program execution
+- index.html
+- package-lock.json
+- package.json
 - README.md
 - vite.config.js
 
