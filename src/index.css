@@ -575,11 +575,6 @@ footer {
     margin: 0;
   }
 
-  .intro-text p {
-    font-size: 1.75rem;
-    margin: 0;
-  }
-
   #headshot {
     max-width: 220px;
     height: auto;
@@ -729,11 +724,6 @@ footer {
       /* white-space: nowrap;   
       overflow: hidden;      
       text-overflow: ellipsis;  */
-    }
-
-  .intro-text p {
-      font-size: 2rem;
-      margin: 0;
     }
 
   #headshot {
