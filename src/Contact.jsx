@@ -5,7 +5,7 @@
  */
 
 import { useState, useRef } from "react";
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [firstName, setFirstName] = useState('');
@@ -15,6 +15,7 @@ const Contact = () => {
     const [referral, setReferral] = useState('');
     const [message, setMessage] = useState('');
     const [otherReferral, setOtherReferral] = useState('');
+    const [success, setSuccess] = useState(false);
     const form = useRef();
 
     /**
@@ -37,11 +38,11 @@ const Contact = () => {
                 });
             })
             .then(() => {
-                console.log('Both emails sent successfully!');
-                // Replace with a success message to the user 
+                setSuccess(true);
+                evt.target.reset();
             })
             .catch((error) => {
-                console.log('Failed: ', error.text)
+                console.log('Failed: ', error.text);
             }
         );
     };
@@ -135,6 +136,10 @@ const Contact = () => {
                             <button id="send-message" type="submit">Send Message</button>
                         </div>
                     </form>
+                    { /* Display success message once contact email is sent */ }
+                    {success && (
+                        <p className="success-message">Message successfully sent. I'll be in touch!</p>
+                    )}
                 </div>
             </section>
         </>
