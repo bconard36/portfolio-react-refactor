@@ -504,9 +504,11 @@ body.light-mode .project-card a {
 }
 
 .success-message {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
+  text-align: center;
+  margin: 20px auto;
 }
 
 .socials {
