@@ -460,12 +460,12 @@ body.light-mode .project-card a {
   width: 60%;
 }
 
-.first-name label, .last-name label, .email label, .phone-number label, .referral label, .message label {
+.first-name label, .last-name label, .email label, .phone-number label, .referral label, .message label, #referral-container label {
   font-size: 0.95rem;
   font-weight: 600;
 }
 
-.first-name input, .last-name input, .email input, .phone-number input, .referral input, .message input {
+.first-name input, .last-name input, .email input, .phone-number input, .referral input, .message input, #referral-container input {
   border-radius: 8px;
   min-width: 300px;
   max-width: 900px;
