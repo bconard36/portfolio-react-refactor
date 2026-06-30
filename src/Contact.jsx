@@ -99,6 +99,7 @@ const Contact = () => {
                                 id="referral-source" 
                                 name="referral" 
                                 onChange={(evt) => setReferral(evt.target.value)}
+                                required
                             >
                                 <option value="">Select One</option>
                                 <option value="LinkedIn">LinkedIn</option>
