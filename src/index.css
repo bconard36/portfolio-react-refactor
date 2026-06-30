@@ -580,8 +580,12 @@ footer {
   }
 
   .hook {
-    font-size: 1.75rem;
+    font-size: 1.35rem;
     margin: 0;
+  }
+
+  .statement {
+    font-size: 1.1rem;
   }
 
   #headshot {
@@ -736,9 +740,13 @@ footer {
     }
 
   .hook {
-      font-size: 2rem;
-      margin: 0;
-    }
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
+  .statement {
+    font-size: 1.25rem;
+  }
 
   #headshot {
     max-width: 100%;
