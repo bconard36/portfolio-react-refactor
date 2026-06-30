@@ -114,6 +114,10 @@ header {
   margin: 0;
 }
 
+.hook {
+  font-size: 1.75rem;
+  margin: 0;
+}
 
 /* Light Mode */
 #light-mode {
@@ -575,6 +579,11 @@ footer {
     margin: 0;
   }
 
+  .hook {
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
   #headshot {
     max-width: 220px;
     height: auto;
@@ -724,6 +733,11 @@ footer {
       /* white-space: nowrap;   
       overflow: hidden;      
       text-overflow: ellipsis;  */
+    }
+
+  .hook {
+      font-size: 2rem;
+      margin: 0;
     }
 
   #headshot {
