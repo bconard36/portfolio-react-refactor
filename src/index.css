@@ -1,0 +1,834 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+:root {
+  --icon-fill: #07DBF2;
+  --icon-stroke: #07DBF2;
+  --social-icon-fill: #07DBF2;
+}
+
+html {
+  min-height: 100%;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  background: linear-gradient(to right, #010410, #0A3D62);
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html.light-mode, body.light-mode {
+  --icon-fill: #0A3D62;
+  --icon-stroke: #0A3D62;
+  --social-icon-fill: #064273;
+  color: #011126;
+  background: linear-gradient(to right, #4682B4, #B0E0E6);
+}
+
+/* Style rules for fonts */ 
+h1, h2, h3, h4 {
+  font-family: "Goldman", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+button, label, legend, input, textarea {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+hr {
+  max-width: 95%;
+  width: 95%;
+}
+
+/* Button Container Style Rule */ 
+.button-container {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+/* Mobile Viewport Style Rules */
+/* Style Rules for Header */
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  position: static;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#logo {
+  max-width: 80px;
+  width: 80px;
+  height: auto;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+#headshot {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.intro-text {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.intro-text h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.intro-text p {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+/* Light Mode */
+#light-mode {
+  background-color: #C2B280;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100px;
+  font-size: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.light-mode #skill-icon {
+  fill: #011126;
+}
+
+/* Style Rules for About Section */
+#about {
+  padding: 40px 20px;
+}
+
+.about-container .bio-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-container .bio-text .column {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+#about h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: -10px;
+}
+
+.bio-text {
+  text-align: center;
+  width: 90%;
+  font-size: 1rem;
+  margin: 0 0 10px 0;
+}
+
+#greet-button {
+  border-radius: 8px;
+  background-color: #C2B280;
+  text-align: center;
+  cursor: pointer;
+}
+
+#greet-message {
+  height: 1em;
+  line-height: 1em;
+  padding-top: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
+#greet-message.show {
+  opacity: 1;
+}
+
+/* Style Rules for Skills Section */ 
+#skills {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#skills h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#skill-caption {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#skills figcaption {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.icon-fill {
+  fill: var(--icon-fill);
+  fill-opacity: 0.9;
+  transition: fill 0.3s ease;
+}
+
+.icon-stroke {
+  stroke: var(--icon-stroke);
+  stroke-opacity: 0.9;
+  stroke-width: 6.5;
+  transition: stroke 0.3s ease;
+  fill: none;
+}
+
+.skill-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 180px;
+  text-align: center;
+}
+
+.skill-icon-wrapper svg {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.skill-icon-wrapper.uiux {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 180px;
+}
+
+.skill-icon-wrapper.uiux svg {
+  width: 180px;
+  height: 180px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+#skills svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.skill-info {
+  display: hidden;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.skill-info.show {
+  opacity: 1;
+  max-height: 100px;
+}
+
+/* Style Rules for Education Section */
+#education {
+  padding-top: 30px;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  align-items: center;
+}
+
+.pcc-seal {
+  width: 150px;
+  height: auto;
+}
+
+.nmsu-seal {
+  width: 150px;
+  height: 150px;
+}
+
+.pcc, .nmsu {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#education h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: -10px;
+}
+
+.school-text h2 {
+  font-size: 1.125rem;
+  white-space: nowrap;   
+  overflow: hidden;      
+  text-overflow: ellipsis; 
+}
+
+.school-text, .school-text h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.school-text h3 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Style Rules for Projects Section */
+#project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 1rem;
+  padding-bottom: 50px;
+}
+
+#projects h1 {
+  font-family: "Goldman", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.project-card {
+  flex: 1 1 300px;
+  max-width: 90%;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  margin: 3px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 8px;
+  color: #07DBF2;
+  font-weight: bold;
+  font-size: 0.875rem;
+  margin-top: auto;
+}
+
+.project-card h3 {
+  margin: 8px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.project-card p {
+  font-size: 0.875rem;
+  margin: 4px 0;
+}
+
+.project-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.project-image img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 8px;
+}
+
+/* Light Mode Adjustments */ 
+body.light-mode .project-card {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: #011126;
+}
+
+body.light-mode .project-card a {
+  color: #011126;
+}
+
+/* Style Rules for Contact Section */
+#contact h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contact legend {
+  display: table;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+#referral-container {
+  text-align: center;
+  margin: 1em auto;
+  width: fit-content;
+}
+
+.first-name, .last-name, .email, .phone-number, .referral, .message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.first-name label, .last-name label, .email label, .phone-number label, .referral label, .message label {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.first-name input, .last-name input, .email input, .phone-number input, .referral input, .message input {
+  border-radius: 8px;
+  min-width: 300px;
+  max-width: 900px;
+}
+
+#message {
+  width: 80%;
+  max-width: 80%;
+  box-sizing: border-box;
+}
+
+
+#referral-source {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7.5px;
+  cursor: pointer;
+}
+
+.message {
+  margin: 30px auto;
+  padding: 5px;
+  width: 60%;
+  text-align: center;
+  border-style: hidden;
+  font-size: 1rem;
+}
+
+#send-message {
+  background-color: #C2B280;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.social-icon-fill {
+  fill: var(--social-icon-fill);
+  fill-opacity: 0.9;
+  transition: fill 0.3s ease;
+}
+
+.socials svg {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Style Rules for Footer Content */
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  padding-top: 30px;
+}
+
+/* Tablet Viewport Style Rules */
+@media (min-width: 779px) and (max-width: 1023px) {
+  /* Header Style Rules */
+  header {
+    position: relative;
+    width: 100%;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0 20px 0;
+  }
+
+  .header-top {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+
+  .intro-text h2 {
+    font-size: 2.75rem;
+    margin: 0;
+  }
+
+  .intro-text p {
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
+  #headshot {
+    max-width: 220px;
+    height: auto;
+  }
+
+  /* About Section */
+  .about-container .bio-text {
+    flex-direction: row;      
+    justify-content: center;  
+    align-items: flex-start;  
+    gap: 60px;                
+    max-width: 1023px;        
+    margin: 0 auto;
+  }
+
+  .about-container .bio-text .column { 
+    flex: 1;
+    max-width: 45%;
+    text-align: center;
+  }
+
+  /* Skills Section */
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .skill-icon-wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    align-self: stretch;
+  }
+
+  .skill-icon-wrapper.uiux {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .skills-icon-wrapper.uiux svg {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .skills svg {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .skills figcaption {
+    font-size: 1.1rem;
+  }
+
+  /* Education Section */
+  .education-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .education-container > *:nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 100%;
+    max-width: 50%;
+  }
+
+  /* Projects Section */
+  #project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.25rem;
+    margin-top: 1rem;
+    padding-bottom: 50px;
+  }
+
+  /* Contact Section */
+  #first-name, #last-name, #email, #phone-number {
+    width: 60%;
+  }
+}
+
+/* Desktop Viewport Style Rules */
+@media (min-width: 1024px) {
+  /* Header Section */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .header-top {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    margin: 0 auto;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #logo {
+    max-width: 200px;
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 15px;
+  }
+
+  .intro-text {
+    width: 600px;
+    text-align: center;
+  }
+
+  .intro-text h2 {
+      font-size: 3rem;
+      margin: 0;
+      /* white-space: nowrap;   
+      overflow: hidden;      
+      text-overflow: ellipsis;  */
+    }
+
+  .intro-text p {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+  #headshot {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* About Section */
+  .about-container .bio-text {
+      flex-direction: row;
+      gap: 40px;
+      margin: 0 auto;
+  }
+
+  .about-container .bio-text .column {
+      flex: 1 1 45%;
+      font-size: 1.15rem;
+      line-height: 1.7;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: start;
+  }
+
+  .skill-icon-wrapper.uiux {
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .skills-icon-wrapper.uiux svg {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .skills svg {
+    max-width: 250px;
+    max-height: 250px;
+    width: 250px;
+  }
+
+  #skills figcaption {
+    font-size: 1.2rem;
+  }
+
+  /* Education Section */
+  .education-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .education-container > *:nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 100%;
+    max-width: 50%;
+  }
+
+  /* Projects Section */ 
+  #project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 30px;
+    justify-items: center;
+    width: 90%;
+    margin: 0 auto 50px auto;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 350px;
+    flex: unset;
+  }
+
+  .project-card p {
+    font-size: 1rem;
+  }
+
+  .project-card a {
+    padding: 5px;
+  }
+
+  #project-list .project-card:nth-last-child(-n+2) {
+    grid-column: span 1;
+  }
+
+  /* Contact Section */
+
+}
+
