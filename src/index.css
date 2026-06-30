@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
   font-style: normal;
 }
 
-button, label, legend, input, textarea {
+button, label, legend, input, textarea, select {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
 }
@@ -501,6 +501,12 @@ body.light-mode .project-card a {
   font-size: 1rem;
   cursor: pointer;
   font-size: 1rem;
+}
+
+.success-message {
+  font-size: 0.95rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 
 .socials {
