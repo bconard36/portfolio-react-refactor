@@ -114,10 +114,6 @@ header {
   margin: 0;
 }
 
-.intro-text p:first-of-type {
-  font-size: 1.75rem;
-  margin: 0;
-}
 
 /* Light Mode */
 #light-mode {
