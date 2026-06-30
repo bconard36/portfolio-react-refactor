@@ -98,8 +98,8 @@ const Contact = () => {
                             <select 
                                 id="referral-source" 
                                 name="referral" 
-                                onChange={(evt) => setReferral(evt.target.value)}
                                 required
+                                onChange={(evt) => setReferral(evt.target.value)}
                             >
                                 <option value="">Select One</option>
                                 <option value="LinkedIn">LinkedIn</option>
@@ -118,6 +118,7 @@ const Contact = () => {
                                 name="otherReferral" 
                                 rows="1" 
                                 cols="30" 
+                                required
                                 onChange={(evt) => setOtherReferral(evt.target.value)}
                             />
                         </div>
