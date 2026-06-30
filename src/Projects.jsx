@@ -19,8 +19,8 @@ const Projects = () => {
                         img={PCC}
                         description="A full-stack notification system built with a team to help PCC's food pantry communicate with students about availability and events."
                         process="Collaborated with a team to design and build a secure account system, including registration, login, and password reset with hashed tokens and email-based verification."
-                        outcome="A complete, functional full-stack application with secure authentication."
-                        technologies="Figma"
+                        outcome="A production-ready authentication system — secure registration, login, and password reset — built using industry-standard practices like password hashing and token expiration."
+                        technologies="Node.js, Express, MSSQL, bcrypt, Nodemailer"
                         link="https://github.com/bconard36/PCC-Food-Pantry-Notification-System"
                     />
                     <ProjectCard 
@@ -60,12 +60,12 @@ const Projects = () => {
                         link="https://bconard36.github.io/Fitness-Calculator-Programs/"
                     />
                     <ProjectCard 
-                        title="Mobile Food Cart Website"
+                        title="Burrito Masala Website Design"
                         img={FoodTruck}
                         description="A mobile-first food cart website mockup built with Figma."
                         process="Gathered requirements, created user personas, stories and journeys, performed content inventory, and designed both low and high-fidelity mock-ups."
                         outcome="A fully polished, mobile-optimized mock-up ready for developer hand-off. Gained hands-on experience with the full UI/UX life-cycle using Figma."
-                        technologies="Node.js, Express, MSSQL, bcrypt, Nodemailer"
+                        technologies="Figma"
                         link="https://www.figma.com/design/Xb952BTTvL3Vb9okv3n0q5/Burrito-Masala-Mockup?node-id=0-1&t=Ddis7IVUEBLafCh7-1"
                     />
                 </div>
