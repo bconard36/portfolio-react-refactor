@@ -1,11 +1,12 @@
 /**
  * Contact Form Component
- * Handles sending of contact form submission emails via emailjs
- * Tracks state of form inputs on change/input 
+ * Sends emails via the shared emailService (single universal EmailJS
+ * template under the hood). See emailTemplates.js for the copy.
  */
 
 import { useState, useRef } from "react";
-import emailjs from '@emailjs/browser';
+import { sendTemplatedEmails } from './emailService';
+import { contactNotification, contactAutoReply } from './emailTemplates';
 
 const Contact = () => {
     const [firstName, setFirstName] = useState('');
@@ -19,32 +20,27 @@ const Contact = () => {
     const form = useRef();
 
     /**
-     * Handler for sending emails after contact form submission 
-     * TemplateID, ServiceID, and publicKey are taken from emailjs
-     * First email sent is with contact object data (names, email, message, etc)
-     * Second email sent is an auto reply to the user who filled out the contact form 
-     * @param {Object} evt - event object for form submission 
+     * Handler for sending emails after contact form submission.
+     * Both emails route through the same universal EmailJS template,
+     * with their content defined in emailTemplates.js.
+     * @param {Object} evt - event object for form submission
      */
     const sendEmail = (evt) => {
         evt.preventDefault();
 
-        emailjs.sendForm('service_vkcmlic', 'template_4jrfcbf', form.current, {
-            publicKey: 'IBkJyfLO0mqAw9LqC'
+        const formData = { firstName, lastName, email, phoneNum, referral, otherReferral, message };
+
+        sendTemplatedEmails([
+            contactNotification(formData),
+            contactAutoReply(formData)
+        ])
+        .then(() => {
+            setSuccess(true);
+            evt.target.reset();
         })
-        .then(
-            () => {
-                emailjs.sendForm('service_vkcmlic', 'template_zxva7ip', form.current, {
-                    publicKey: 'IBkJyfLO0mqAw9LqC'
-                });
-            })
-            .then(() => {
-                setSuccess(true);
-                evt.target.reset();
-            })
-            .catch((error) => {
-                console.log('Failed: ', error.text);
-            }
-        );
+        .catch((error) => {
+            console.log('Failed: ', error.text);
+        });
     };
 
     return ( 
