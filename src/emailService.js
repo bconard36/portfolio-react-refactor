@@ -10,7 +10,7 @@
 import emailjs from '@emailjs/browser';
 
 const SERVICE_ID = 'service_vkcmlic';
-const TEMPLATE_ID = 'REPLACE_WITH_YOUR_UNIVERSAL_TEMPLATE_ID';
+const TEMPLATE_ID = 'template_zxva7ip';
 const PUBLIC_KEY = 'IBkJyfLO0mqAw9LqC';
 
 /**
