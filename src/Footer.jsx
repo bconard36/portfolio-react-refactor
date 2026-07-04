@@ -13,9 +13,6 @@ const Footer = () => {
                 <a href="https://github.com/bconard36" target="_blank">
                     <GitHubIcon className="social-icon-fill"/>
                 </a>
-                <a href="mailto:bconard24@gmail.com">
-                    <EmailIcon className="social-icon-fill"/>
-                </a>
                 <a href="/files/June2026_DeveloperResume.pdf" download="Billy Conard Resume - June 2026">
                     <ResumeIcon className="social-icon-fill"/>
                 </a>
