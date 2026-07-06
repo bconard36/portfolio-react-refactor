@@ -5,6 +5,7 @@ import DataImg from './assets/Python-and-SQL.png';
 import FoodTruck from './assets/cropped_burrito_masala.png';
 import PCC from './assets/pcc-food-pantry.png';
 import Fitness from './assets/fitnessCalculator.png';
+import Woodworks from './assets/conards_woodworks_screenshot.png';
 
 const Projects = () => {
     return ( 
@@ -29,17 +30,17 @@ const Projects = () => {
                         description="A custom-built e-commerce website for a real clothing brand client, currently live and awaiting Shopify integration."
                         process="Worked directly with the client through an iterative design and development process — translating their vision into a fully functional, branded storefront using Figma for prototyping and hand-coded HTML, CSS, and JavaScript for the build."
                         outcome="Delivered a live, production-ready website deployed via Vercel. Shopify credentials are pending for full store functionality — demonstrating real-world client collaboration and end-to-end delivery."
-                        technologies="React, Vercel, Figma, HTML/CSS, JavaScript, GitHub"
+                        technologies="React, Vercel, Shopify API, HTML/CSS, JavaScript, GitHub"
                         link="https://sku-suks-react-refactor.vercel.app/"
                     />
                     <ProjectCard 
-                        title="Portland Historical Tours"
-                        img={PHT}
-                        description="A responsive, multi-page website built for a fictional tour company based in Portland, OR — designed mobile-first from the ground up."
-                        process="Architected and coded the full site from scratch using semantic HTML and CSS, applying mobile-first principles and accessibility best practices throughout."
-                        outcome="Delivered a polished, fully responsive site optimized across all major device breakpoints. Earned a perfect score meeting all design and development requirements."
-                        technologies="HTML/CSS, JavaScript, GitHub"
-                        link="https://bconard36.github.io/Portland-Historical-Tours/"
+                        title="Conard's Woodworks"
+                        img={Woodworks}
+                        description="A custom-built portfolio and quote-request website for a real woodworking business client, showcasing handcrafted pieces and streamlining custom order inquiries."
+                        process="Worked directly with the client to design and build a clean, gallery-focused site that highlights their craftsmanship — using hand-coded HTML, CSS, and JavaScript to create a fast, responsive storefront-style experience without traditional e-commerce checkout."
+                        outcome="Delivered a live, production-ready website deployed via Vercel, featuring a photo gallery and integrated contact form for custom quote requests — demonstrating client collaboration and a practical alternative to full e-commerce for service-based inquiries."
+                        technologies="React, Vite, Vercel, HTML/CSS, JavaScript, EmailJS, GitHub"
+                        link="https://conards-woodworks.vercel.app/"
                     />
                     <ProjectCard 
                         title="Data Analysis Projects"
@@ -60,13 +61,13 @@ const Projects = () => {
                         link="https://bconard36.github.io/Fitness-Calculator-Programs/"
                     />
                     <ProjectCard 
-                        title="Burrito Masala Website Design"
-                        img={FoodTruck}
-                        description="A mobile-first food cart website mockup built with Figma."
-                        process="Gathered requirements, created user personas, stories and journeys, performed content inventory, and designed both low and high-fidelity mock-ups."
-                        outcome="A fully polished, mobile-optimized mock-up ready for developer hand-off. Gained hands-on experience with the full UI/UX life-cycle using Figma."
-                        technologies="Figma"
-                        link="https://www.figma.com/design/Xb952BTTvL3Vb9okv3n0q5/Burrito-Masala-Mockup?node-id=0-1&t=Ddis7IVUEBLafCh7-1"
+                        title="Portland Historical Tours"
+                        img={PCC}
+                        description="A responsive, multi-page website built for a fictional tour company based in Portland, OR — designed mobile-first from the ground up."
+                        process="Architected and coded the full site from scratch using semantic HTML and CSS, applying mobile-first principles and accessibility best practices throughout."
+                        outcome="Delivered a polished, fully responsive site optimized across all major device breakpoints. Earned a perfect score meeting all design and development requirements."
+                        technologies="HTML/CSS, JavaScript, GitHub"
+                        link="https://bconard36.github.io/Portland-Historical-Tours/"
                     />
                 </div>
             </section>
