@@ -62,7 +62,7 @@ const Projects = () => {
                     />
                     <ProjectCard 
                         title="Portland Historical Tours"
-                        img={PCC}
+                        img={PHT}
                         description="A responsive, multi-page website built for a fictional tour company based in Portland, OR — designed mobile-first from the ground up."
                         process="Architected and coded the full site from scratch using semantic HTML and CSS, applying mobile-first principles and accessibility best practices throughout."
                         outcome="Delivered a polished, fully responsive site optimized across all major device breakpoints. Earned a perfect score meeting all design and development requirements."
