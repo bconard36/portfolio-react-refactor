@@ -1,7 +1,7 @@
 # Billy Conard - Portfolio Website (React Refactor) 
-A React refactor of my original static HTML/CSS/JavaScript portfolio website,
-rebuilt using component-based architecture, dynamic state management, and
-third-party integrations.
+A production React application refactoring my original static HTML/CSS/JavaScript 
+portfolio into a fully componentized, responsive web app. Built in two weeks as part 
+of an active transition into professional web development.
 
 **Live Site:** https://portfolio-react-refactor.vercel.app/
 
