@@ -48,7 +48,7 @@ const Projects = () => {
                         description="A centralized GitHub repository housing a collection of data analytics projects built with industry-standard tools and real-world datasets."
                         process="Applied SQL for querying and transforming relational data, Python (via JupyterLab) for data manipulation and exploratory analysis, and Tableau for designing interactive dashboards and communicating visual insights."
                         outcome="Demonstrates end-to-end analytics capability — from raw data to actionable insight — across a diverse set of real-world scenarios."
-                        technologies="SQL, Python, Tableau, JupyterLab, GitHub"
+                        technologies="SQL, SQL Server, Oracle Database, PL/SQL, T-SQL, Python, Tableau, JupyterLab, GitHub"
                         link="https://github.com/bconard36/Data_Analytics_Projects/tree/main"
                     />
                     <ProjectCard 
