@@ -448,7 +448,8 @@ body.light-mode .project-card a {
 #referral-container {
   text-align: center;
   margin: 1em auto;
-  width: fit-content;
+  width: 100%;
+  max-width: 100%;
 }
 
 .first-name, .last-name, .email, .phone-number, .referral, .message, #referral-container {
@@ -463,6 +464,10 @@ body.light-mode .project-card a {
 .first-name label, .last-name label, .email label, .phone-number label, .referral label, .message label, #referral-container label {
   font-size: 0.95rem;
   font-weight: 600;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
 }
 
 .first-name input, .last-name input, .email input, .phone-number input, .referral input, .message input, #referral-container input {
