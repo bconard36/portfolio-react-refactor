@@ -58,7 +58,7 @@ const Projects = () => {
                         process="Originally built in Python, then converted to JavaScript for web deployment and future feature development."
                         outcome="A working calculator engine that's become the starting point for a full fitness tracking application I'm currently developing."
                         technologies="HTML, CSS, JavaScript, Python"
-                        link="https://bconard36.github.io/Fitness-Calculator-Programs/"
+                        link="https://bconard36.github.io/CalorieTrack/"
                     />
                     <ProjectCard 
                         title="Portland Historical Tours"
