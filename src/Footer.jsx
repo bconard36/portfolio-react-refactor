@@ -13,7 +13,7 @@ const Footer = () => {
                 <a href="https://github.com/bconard36" target="_blank">
                     <GitHubIcon className="social-icon-fill"/>
                 </a>
-                <a href="/files/June2026_DeveloperResume.pdf" download="Billy Conard Resume - June 2026">
+                <a href="/files/July2026_DeveloperResume.pdf" download="Billy Conard Web Developer Resume - July 2026">
                     <ResumeIcon className="social-icon-fill"/>
                 </a>
             </div>
