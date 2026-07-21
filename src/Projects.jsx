@@ -54,10 +54,10 @@ const Projects = () => {
                     <ProjectCard 
                         title="CalorieTrack"
                         img={Fitness}
-                        description="A custom-coded fitness calculator program that computes BMI, BMR, and TDEE based on user input, with plans to expand into a full application."
-                        process="Originally built in Python, then converted to JavaScript for web deployment and future feature development."
-                        outcome="A working calculator engine that's become the starting point for a full fitness tracking application I'm currently developing."
-                        technologies="HTML, CSS, JavaScript, Python"
+                        description="A React fitness calculator that computes BMI, BMR, and TDEE with real-time validation, responsive UI, and informative result modals."
+                        process="Rebuilt from vanilla JavaScript into React using controlled components, lifted state, reusable utilities, and Jest unit testing."
+                        outcome="A polished React application demonstrating modern front-end architecture while serving as the foundation for future fitness tracking features."
+                        technologies="React, Vite, JavaScript, Jest, HTML, CSS"
                         link="https://calorie-track-calculator.vercel.app/"
                     />
                     <ProjectCard 
