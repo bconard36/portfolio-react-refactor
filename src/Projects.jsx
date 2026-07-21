@@ -4,7 +4,7 @@ import PHT from './assets/portland_historical_tours_screenshot.png';
 import DataImg from './assets/Python-and-SQL.png';
 import FoodTruck from './assets/cropped_burrito_masala.png';
 import PCC from './assets/pcc-food-pantry.png';
-import Fitness from './assets/fitnessCalculator.png';
+import Fitness from './assets/fitness.png';
 import Woodworks from './assets/conards_woodworks_screenshot.png';
 
 const Projects = () => {
@@ -58,7 +58,7 @@ const Projects = () => {
                         process="Originally built in Python, then converted to JavaScript for web deployment and future feature development."
                         outcome="A working calculator engine that's become the starting point for a full fitness tracking application I'm currently developing."
                         technologies="HTML, CSS, JavaScript, Python"
-                        link="https://bconard36.github.io/CalorieTrack/"
+                        link="https://calorie-track-calculator.vercel.app/"
                     />
                     <ProjectCard 
                         title="Portland Historical Tours"
