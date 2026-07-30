@@ -3,7 +3,7 @@ A production React application refactoring my original static HTML/CSS/JavaScrip
 portfolio into a fully componentized, responsive web app. Built in two weeks as part 
 of an active transition into professional web development.
 
-**Live Site:** https://portfolio-react-refactor.vercel.app/
+**Live Site:** [Personal Portfolio](https://billyconardportfolio.vercel.app/)
 
 # Folder List 
 - public: houses all public files to be served 
