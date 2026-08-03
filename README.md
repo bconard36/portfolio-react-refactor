@@ -42,24 +42,6 @@ of an active transition into professional web development.
 - Resume download via public asset serving
 - Fully responsive across mobile, tablet, and desktop viewports
 
-# How To Run 
-- _To view the production build_:
-    - https://portfolio-react-refactor.vercel.app/
-
-- _To launch via VS Code_:
-    - Open the root folder in VS Code (or preferred code editor) 
-        - portfolioWebsite-react-refactor 
-    - Open a terminal window (CTRL + `)
-        - _To install the necessary dependencies_: npm install  
-        - _To start the application_: npm run dev 
-    - Open a browser of your choice and navigate to: 
-        - http://localhost:5173/
-
-# When Running
-- Once a browser window is opened with the above URL, my portfolio website will appear. 
-- This web page features a light and dark mode toggle, dynamic text displayed, and contact form submission. emailjs handles the receiving of contact
-form data and the sending of an auto-reply email. 
-
 # Tools Used 
 - React + Vite
 - vite-plugin-svgr (SVG as React components)
