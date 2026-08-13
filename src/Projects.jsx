@@ -1,11 +1,9 @@
 import ProjectCard from "./ProjectCard";
 import SkuSuks from './assets/SkuSucks_ScreenShot.png';
 import Momentum from './assets/momentum.png'
-import PHT from './assets/portland_historical_tours_screenshot.png';
 import DataImg from './assets/Python-and-SQL.png';
-import Tableay from './assets/tableauProfile.png'
+import Tableau from './assets/tableauProfile.png'
 import PCC from './assets/pcc-food-pantry.png';
-import Fitness from './assets/fitness.png';
 import Woodworks from './assets/conards_woodworks_screenshot.png';
 
 const Projects = () => {
@@ -18,7 +16,7 @@ const Projects = () => {
                 <div id="project-list">
                     <ProjectCard 
                         title="Momentum"
-                        img={momentum}
+                        img={Momentum}
                         description="A fitness tracking application in development that allows users to create, manage, and review personalized workouts."
                         process="Built the front-end with React Hook Form and React Router, then designed a relational PostgreSQL database and integrated Supabase for sign in and sign out authentication."
                         outcome="An ongoing full-stack project that has strengthened my skills in React, form management, authentication, relational database design, and back-end development."
