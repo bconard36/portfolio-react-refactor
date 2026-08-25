@@ -17,11 +17,11 @@ const Projects = () => {
                     <ProjectCard 
                         title="Momentum"
                         img={Momentum}
-                        description="A fitness tracking application in development that allows users to create, manage, and review personalized workouts."
-                        process="Built the front-end with React Hook Form and React Router, then designed a relational PostgreSQL database and integrated Supabase for sign in and sign out authentication."
-                        outcome="An ongoing full-stack project that has strengthened my skills in React, form management, authentication, relational database design, and back-end development."
-                        technologies="React, React Router, React Hook Form, Vite, JavaScript, Supabase, HTML, CSS"
-                        link="https://github.com/bconard36/Momentum"
+                        description="A full-stack React fitness tracking application that allows users to create, manage, and review personalized workouts."
+                        process="Built the front-end with React Hook Form and React Router, then designed a relational PostgreSQL database and integrated Supabase for user authentication and database operations."
+                        outcome="A deployed full-stack application that strengthened my skills in React, form management, authentication, relational database design, API integration, and back-end development."
+                        technologies="React, React Router, React Hook Form, Vite, JavaScript, Supabase, PostgreSQL, HTML, CSS"
+                        link="https://momentum-workout-tracking.vercel.app/"
                     />
                     <ProjectCard 
                         title="Pantry Connect"
