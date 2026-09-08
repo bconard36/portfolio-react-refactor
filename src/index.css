@@ -1,43 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-
 :root {
-  --icon-fill: #07DBF2;
-  --icon-stroke: #07DBF2;
-  --social-icon-fill: #07DBF2;
+  --icon-fill: #07dbf2;
+  --icon-stroke: #07dbf2;
+  --social-icon-fill: #07dbf2;
 }
 
 html {
   min-height: 100%;
 }
 
-html, body {
+html,
+body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  background: linear-gradient(to right, #010410, #0A3D62);
-  color: #FFF;
+  background: linear-gradient(to right, #010410, #0a3d62);
+  color: #fff;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
-html.light-mode, body.light-mode {
-  --icon-fill: #0A3D62;
-  --icon-stroke: #0A3D62;
+html.light-mode,
+body.light-mode {
+  --icon-fill: #0a3d62;
+  --icon-stroke: #0a3d62;
   --social-icon-fill: #064273;
   color: #011126;
-  background: linear-gradient(to right, #4682B4, #B0E0E6);
+  background: linear-gradient(to right, #4682b4, #b0e0e6);
 }
 
-/* Style rules for fonts */ 
-h1, h2, h3, h4 {
+/* Style rules for fonts */
+h1,
+h2,
+h3,
+h4 {
   font-family: "Goldman", sans-serif;
   font-weight: 200;
   font-style: normal;
 }
 
-button, label, legend, input, textarea, select {
+button,
+label,
+legend,
+input,
+textarea,
+select {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
 }
@@ -47,7 +56,7 @@ hr {
   width: 95%;
 }
 
-/* Button Container Style Rule */ 
+/* Button Container Style Rule */
 .button-container {
   width: 100%;
   text-align: center;
@@ -121,7 +130,7 @@ header {
 
 /* Light Mode */
 #light-mode {
-  background-color: #C2B280;
+  background-color: #c2b280;
   display: inline-block;
   margin: 0 auto;
   width: 100px;
@@ -170,7 +179,7 @@ header {
 
 #greet-button {
   border-radius: 8px;
-  background-color: #C2B280;
+  background-color: #c2b280;
   text-align: center;
   cursor: pointer;
 }
@@ -191,7 +200,7 @@ header {
   opacity: 1;
 }
 
-/* Style Rules for Skills Section */ 
+/* Style Rules for Skills Section */
 #skills {
   text-align: center;
   margin: 0 auto;
@@ -287,7 +296,9 @@ header {
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 0.3s ease, max-height 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    max-height 0.3s ease;
 }
 
 .skill-info.show {
@@ -318,7 +329,8 @@ header {
   height: 150px;
 }
 
-.pcc, .nmsu {
+.pcc,
+.nmsu {
   font-size: 0.9rem;
   display: flex;
   flex-direction: column;
@@ -334,12 +346,13 @@ header {
 
 .school-text h2 {
   font-size: 1.125rem;
-  white-space: nowrap;   
-  overflow: hidden;      
-  text-overflow: ellipsis; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.school-text, .school-text h3 {
+.school-text,
+.school-text h3 {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -391,7 +404,7 @@ header {
   text-decoration: none;
   text-align: center;
   margin-top: 8px;
-  color: #07DBF2;
+  color: #07dbf2;
   font-weight: bold;
   font-size: 0.875rem;
   margin-top: auto;
@@ -421,7 +434,7 @@ header {
   border-radius: 8px;
 }
 
-/* Light Mode Adjustments */ 
+/* Light Mode Adjustments */
 body.light-mode .project-card {
   background: rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -430,6 +443,35 @@ body.light-mode .project-card {
 
 body.light-mode .project-card a {
   color: #011126;
+}
+
+/* Style Rules for the Data & Analytics Section */
+#data-projects {
+  padding-top: 20px;
+}
+
+#data-projects h2 {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-intro {
+  text-align: center;
+  font-size: 0.95rem;
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+  opacity: 0.85;
+}
+
+#data-project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 700px;
+  padding-bottom: 50px;
 }
 
 /* Style Rules for Contact Section */
@@ -452,7 +494,13 @@ body.light-mode .project-card a {
   max-width: 100%;
 }
 
-.first-name, .last-name, .email, .phone-number, .referral, .message, #referral-container {
+.first-name,
+.last-name,
+.email,
+.phone-number,
+.referral,
+.message,
+#referral-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -461,7 +509,13 @@ body.light-mode .project-card a {
   width: 60%;
 }
 
-.first-name label, .last-name label, .email label, .phone-number label, .referral label, .message label, #referral-container label {
+.first-name label,
+.last-name label,
+.email label,
+.phone-number label,
+.referral label,
+.message label,
+#referral-container label {
   font-size: 0.95rem;
   font-weight: 600;
   display: block;
@@ -470,7 +524,13 @@ body.light-mode .project-card a {
   text-align: center;
 }
 
-.first-name input, .last-name input, .email input, .phone-number input, .referral input, .message input, #referral-container input {
+.first-name input,
+.last-name input,
+.email input,
+.phone-number input,
+.referral input,
+.message input,
+#referral-container input {
   border-radius: 8px;
   min-width: 300px;
   max-width: 900px;
@@ -481,7 +541,6 @@ body.light-mode .project-card a {
   max-width: 80%;
   box-sizing: border-box;
 }
-
 
 #referral-source {
   text-align: center;
@@ -501,7 +560,7 @@ body.light-mode .project-card a {
 }
 
 #send-message {
-  background-color: #C2B280;
+  background-color: #c2b280;
   border-radius: 8px;
   font-size: 1rem;
   cursor: pointer;
@@ -601,15 +660,15 @@ footer {
 
   /* About Section */
   .about-container .bio-text {
-    flex-direction: row;      
-    justify-content: center;  
-    align-items: flex-start;  
-    gap: 60px;                
-    max-width: 1023px;        
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    max-width: 1023px;
     margin: 0 auto;
   }
 
-  .about-container .bio-text .column { 
+  .about-container .bio-text .column {
     flex: 1;
     max-width: 45%;
     text-align: center;
@@ -685,7 +744,10 @@ footer {
   }
 
   /* Contact Section */
-  #first-name, #last-name, #email, #phone-number {
+  #first-name,
+  #last-name,
+  #email,
+  #phone-number {
     width: 60%;
   }
 }
@@ -738,12 +800,12 @@ footer {
   }
 
   .intro-text h2 {
-      font-size: 3rem;
-      margin: 0;
-      /* white-space: nowrap;   
+    font-size: 3rem;
+    margin: 0;
+    /* white-space: nowrap;   
       overflow: hidden;      
       text-overflow: ellipsis;  */
-    }
+  }
 
   .hook {
     font-size: 1.75rem;
@@ -763,15 +825,15 @@ footer {
 
   /* About Section */
   .about-container .bio-text {
-      flex-direction: row;
-      gap: 40px;
-      margin: 0 auto;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0 auto;
   }
 
   .about-container .bio-text .column {
-      flex: 1 1 45%;
-      font-size: 1.15rem;
-      line-height: 1.7;
+    flex: 1 1 45%;
+    font-size: 1.15rem;
+    line-height: 1.7;
   }
 
   .skills-container {
@@ -821,7 +883,7 @@ footer {
     max-width: 50%;
   }
 
-  /* Projects Section */ 
+  /* Projects Section */
   #project-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -846,11 +908,13 @@ footer {
     padding: 5px;
   }
 
-  #project-list .project-card:nth-last-child(-n+2) {
+  #project-list .project-card:nth-last-child(-n + 2) {
     grid-column: span 1;
   }
 
-  /* Contact Section */
-
+  #data-project-list {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 750px;
+    gap: 30px;
+  }
 }
-

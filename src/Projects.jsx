@@ -57,7 +57,7 @@ const Projects = () => {
               Alongside development, I keep a hand in data work — SQL, Python,
               and Tableau applied to real-world datasets.
             </p>
-            <div id="project-list">
+            <div id="data-project-list">
               <ProjectCard
                 title="Data Visualizations with Tableau"
                 img={Tableau}
