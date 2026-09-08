@@ -1,6 +1,6 @@
 import UXIcon from "./assets/UXIcon.svg?react";
 import WebDevIcon from "./assets/webDevIcon.svg?react";
-import AnalysisIcon from "./assets/analysisIcon.svg?react";
+import DatabaseIcon from "./assets/databaseIcon.svg?react";
 import CommIcon from "./assets/communicationIcon.svg?react";
 import SkillCard from "./SkillCard";
 
@@ -17,29 +17,29 @@ const Skills = () => {
             wrapperClass="skill-icon-wrapper"
             figureClass="web-dev"
             caption="Web Development"
-            info="I build responsive, efficient websites that bring creative ideas to life through clean, well-structured code."
+            info="I build full-stack applications with clean, well-structured code — from front-end interfaces to back-end architecture."
           />
           <SkillCard
             icon={UXIcon}
             wrapperClass="skill-icon-wrapper uiux"
             figureClass="ui-ux"
             caption="UI/UX Design"
-            info="I create intuitive, accessible designs that blend usability with a clean, engaging user experience."
+            info="I design intuitive, accessible interfaces, translating wireframes and mockups into functional, user-first experiences."
           />
 
           <SkillCard
-            icon={AnalysisIcon}
+            icon={DatabaseIcon}
             wrapperClass="skill-icon-wrapper"
             figureClass="analysis"
-            caption="Business & Data Analysis"
-            info="I turn complex data into clear insights that support smarter design and business decisions."
+            caption="Database &amp; Data Fluency"
+            info="I design relational database schemas and write efficient SQL, with additional experience turning raw data into clear insights."
           />
           <SkillCard
             icon={CommIcon}
             wrapperClass="skill-icon-wrapper communication-skill"
             figureClass="communication"
-            caption="Communication"
-            info="I communicate ideas clearly and effectively to bridge the gap between technical and creative teams."
+            caption=" Leadership &amp; Communication"
+            info="Years of leading teams taught me to communicate clearly, take ownership, and bridge the gap between technical and non-technical collaborators."
           />
         </div>
       </section>
