@@ -230,8 +230,10 @@ header {
 
 #skills figcaption {
   font-size: 1rem;
+  width: 100%;
   cursor: pointer;
   text-wrap: balance;
+  white-space: nowrap;
 }
 
 .icon-fill {
@@ -306,6 +308,7 @@ header {
 .skill-info.show {
   opacity: 1;
   max-height: 100px;
+  text-wrap: balance;
 }
 
 /* Style Rules for Education Section */
@@ -718,6 +721,7 @@ footer {
   .skills figcaption {
     font-size: 1.1rem;
     text-wrap: balance;
+    white-space: nowrap;
   }
 
   /* Education Section */
@@ -868,6 +872,7 @@ footer {
   #skills figcaption {
     font-size: 1.2rem;
     text-wrap: balance;
+    white-space: nowrap;
   }
 
   /* Education Section */
