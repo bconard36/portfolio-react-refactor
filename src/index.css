@@ -231,7 +231,7 @@ header {
 #skills figcaption {
   font-size: 1rem;
   cursor: pointer;
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 
 .icon-fill {
