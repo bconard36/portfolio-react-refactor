@@ -717,6 +717,7 @@ footer {
 
   .skills figcaption {
     font-size: 1.1rem;
+    text-wrap: balance;
   }
 
   /* Education Section */
@@ -866,6 +867,7 @@ footer {
 
   #skills figcaption {
     font-size: 1.2rem;
+    text-wrap: balance;
   }
 
   /* Education Section */
