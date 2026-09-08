@@ -26,7 +26,7 @@ const About = () => {
                 operations in fast-paced, high-accountability environments. That
                 background shapes how I build now — high standards for
                 reliability, usability, and functionality. I'm currently looking
-                for a web devlopment role, front-end or full-stack, where I can
+                for a web development role, front-end or full-stack, where I can
                 bring both halves of that experience to a team building real
                 projects.
               </p>
