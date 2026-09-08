@@ -296,19 +296,23 @@ header {
 }
 
 .skill-info {
-  display: hidden;
+  visibility: hidden;
   opacity: 0;
   max-height: 0;
   overflow: hidden;
+  text-wrap: balance;
+  pointer-events: none;
   transition:
     opacity 0.3s ease,
-    max-height 0.3s ease;
+    max-height 0.3s ease,
+    visibility 0s linear 0.3s;
 }
 
 .skill-info.show {
+  visibility: visible;
   opacity: 1;
   max-height: 100px;
-  text-wrap: balance;
+  transition-delay: 0s;
 }
 
 /* Style Rules for Education Section */

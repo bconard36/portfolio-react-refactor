@@ -1,7 +1,7 @@
-import UXIcon from "./assets/UXIcon.svg?react";
-import WebDevIcon from "./assets/webDevIcon.svg?react";
-import DatabaseIcon from "./assets/databaseIcon.svg?react";
-import CommIcon from "./assets/communicationIcon.svg?react";
+import UXIcon from "../assets/UXIcon.svg?react";
+import WebDevIcon from "../assets/webDevIcon.svg?react";
+import DatabaseIcon from "../assets/databaseIcon.svg?react";
+import CommIcon from "../assets/communicationIcon.svg?react";
 import SkillCard from "./SkillCard";
 
 const Skills = () => {

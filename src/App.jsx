@@ -1,14 +1,13 @@
-import About from './About'
-import Contact from './Contact'
-import Education from './Education'
-import Footer from './Footer'
-import HeaderContent from './HeaderContent'
-import HeaderElements from './HeaderElements'
-import Projects from './Projects'
-import Skills from './Skills'
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Education from "./components/Education";
+import Footer from "./components/Footer";
+import HeaderContent from "./components/HeaderContent";
+import HeaderElements from "./components/HeaderElements";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
-
   return (
     <>
       <HeaderElements>
@@ -21,7 +20,7 @@ function App() {
       <Contact />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

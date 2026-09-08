@@ -1,10 +1,10 @@
 import ProjectCard from "./ProjectCard";
-import SkuSuks from "./assets/SkuSucks_ScreenShot.png";
-import Momentum from "./assets/momentum.png";
-import DataImg from "./assets/Python-and-SQL.png";
-import Tableau from "./assets/tableauProfile.png";
-import PCC from "./assets/pcc-food-pantry.png";
-import Woodworks from "./assets/conards_woodworks_screenshot.png";
+import SkuSuks from "../assets/SkuSucks_ScreenShot.png";
+import Momentum from "../assets/momentum.png";
+import DataImg from "../assets/Python-and-SQL.png";
+import Tableau from "../assets/tableauProfile.png";
+import PCC from "../assets/pcc-food-pantry.png";
+import Woodworks from "../assets/conards_woodworks_screenshot.png";
 
 const Projects = () => {
   return (

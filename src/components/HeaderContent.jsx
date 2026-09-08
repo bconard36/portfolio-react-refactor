@@ -1,4 +1,4 @@
-import headshot from "./assets/professional_headshot.png";
+import headshot from "../assets/professional_headshot.png";
 
 const HeaderContent = () => {
   return (

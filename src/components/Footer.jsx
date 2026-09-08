@@ -1,6 +1,6 @@
-import LinkedInIcon from "./assets/linked_in_icon.svg?react";
-import GitHubIcon from "./assets/github_icon.svg?react";
-import ResumeIcon from "./assets/resume_graphic.svg?react";
+import LinkedInIcon from "../assets/linked_in_icon.svg?react";
+import GitHubIcon from "../assets/github_icon.svg?react";
+import ResumeIcon from "../assets/resume_graphic.svg?react";
 
 const Footer = () => {
   return (
