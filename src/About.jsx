@@ -1,37 +1,41 @@
 import Button from "./Button";
 
 const About = () => {
-    return ( 
-        <>
-            <hr />
-            <section id="about">
-                <h1>About Me</h1>
-                <Button />
-                <div className="about-container">
-                    <div className="bio-text">
-                        <div className="column">
-                            <p>
-                                I design and build web experiences with a focus on clarity, accessibility, 
-                                and thoughtful user interaction. My education in web development and design, 
-                                combined with self-motivated projects and hands-on experience in data analysis 
-                                using Python, SQL and Tableau give me a perspective that bridges visual design 
-                                concepts with evidence-based decision making. 
-                            </p>
-                        </div>
-                        <div className="column">
-                            <p>
-                                A Bachelor's in Communication Studies, alongside years of leadership and customer service
-                                experience, has sharpened my ability to communicate clearly, collaborate effectively, and 
-                                advocate for the user. I'm actively seeking opportunities in web development, UI/UX 
-                                design, or data analytics, where I can bring my full range of skills to a thoughtful, 
-                                tech-focused team. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-     );
-}
- 
+  return (
+    <>
+      <hr />
+      <section id="about">
+        <h1>About Me</h1>
+        <Button />
+        <div className="about-container">
+          <div className="bio-text">
+            <div className="column">
+              <p>
+                I build web applications with an eye for clean architecture and
+                thoughtful user experience — software that's designed through
+                the eyes of the person using it. My education in web
+                development, database design, and SQL gave me a solid technical
+                foundation, and I bring the same care to the details that don't
+                show up in a demo: reliability, clear structure, and following
+                through on what I start.
+              </p>
+            </div>
+            <div className="column">
+              <p>
+                Before development, I spent 6+ years leading teams and
+                operations in fast-paced, high-accountability environments. That
+                background shapes how I build now — high standards for
+                reliability, usability, and functionality. I'm currently looking
+                for a web devlopment role, front-end or full-stack, where I can
+                bring both halves of that experience to a team building real
+                projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
 export default About;
