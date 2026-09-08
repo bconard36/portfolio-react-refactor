@@ -1,27 +1,32 @@
-import LinkedInIcon from './assets/linked_in_icon.svg?react'
-import GitHubIcon from './assets/github_icon.svg?react'
-import EmailIcon from './assets/email_icon.svg?react'
-import ResumeIcon from './assets/resume_graphic.svg?react'
+import LinkedInIcon from "./assets/linked_in_icon.svg?react";
+import GitHubIcon from "./assets/github_icon.svg?react";
+import ResumeIcon from "./assets/resume_graphic.svg?react";
 
 const Footer = () => {
-    return ( 
-        <>
-            <div className="socials">
-                <a href="https://www.linkedin.com/in/williamconard/" target="_blank">
-                    <LinkedInIcon className="social-icon-fill" />
-                </a>
-                <a href="https://github.com/bconard36" target="_blank">
-                    <GitHubIcon className="social-icon-fill"/>
-                </a>
-                <a href="/files/DeveloperResume_August2026.docx" download="Billy Conard Resume - August 2026">
-                    <ResumeIcon className="social-icon-fill"/>
-                </a>
-            </div>
-            <footer>
-                <p>&copy; {new Date().getFullYear()} | Billy Conard's Portfolio Website | All rights reserved</p>
-            </footer>
-        </>
-     );
-}
- 
+  return (
+    <>
+      <div className="socials">
+        <a href="https://www.linkedin.com/in/williamconard/" target="_blank">
+          <LinkedInIcon className="social-icon-fill" />
+        </a>
+        <a href="https://github.com/bconard36" target="_blank">
+          <GitHubIcon className="social-icon-fill" />
+        </a>
+        <a
+          href="/files/DeveloperResume_Sept2026.docx"
+          download="Billy Conard Developer Resume - September 2026"
+        >
+          <ResumeIcon className="social-icon-fill" />
+        </a>
+      </div>
+      <footer>
+        <p>
+          &copy; {new Date().getFullYear()} | Billy Conard's Portfolio Website |
+          All rights reserved
+        </p>
+      </footer>
+    </>
+  );
+};
+
 export default Footer;
