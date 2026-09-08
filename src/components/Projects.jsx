@@ -19,7 +19,7 @@ const Projects = () => {
             description="A full-stack workout tracking app built to solve my own need for structured, easy-to-follow progress logging."
             process="Built the front-end with React Hook Form and React Router for validated, multi-step workout entry, then designed a relational PostgreSQL schema and integrated Supabase for authentication and database operations."
             outcome="A deployed, actively-used application that sharpened my skills in schema design, authentication, form validation, and full-stack architecture — and the project I'm still building on today."
-            technologies="React, React Router, React Hook Form, Vite, JavaScript, Supabase, PostgreSQL, HTML, CSS"
+            technologies="React, React Router, React Hook Form, Vite, Vitest, React Testing Library, JavaScript, Supabase, PostgreSQL, HTML, CSS"
             link="https://momentum-workout-tracking.vercel.app/"
           />
           <ProjectCard
