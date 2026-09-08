@@ -267,7 +267,6 @@ header {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  cursor: pointer;
   fill: var(--icon-fill);
 }
 
@@ -297,8 +296,7 @@ header {
 
 .skill-info {
   visibility: hidden;
-  opacity: 0;
-  max-height: 0;
+  max-height: 100px;
   overflow: hidden;
   text-wrap: balance;
   pointer-events: none;
