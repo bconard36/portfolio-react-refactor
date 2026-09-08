@@ -226,6 +226,7 @@ header {
   font-size: 0.9rem;
   text-align: center;
   padding: 5px 0;
+  text-wrap: pretty;
 }
 
 #skills figcaption {
