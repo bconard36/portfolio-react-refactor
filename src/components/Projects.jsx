@@ -47,7 +47,7 @@ const Projects = () => {
             description="A custom-built e-commerce storefront for a real clothing brand client, live and awaiting Shopify integration for full store functionality."
             process="Worked directly with the client through an iterative design process — translating their brand vision into a functional storefront using Figma for prototyping and hand-coded HTML, CSS, and JavaScript for the build."
             outcome="Delivered a live, production-ready site demonstrating real-world client collaboration and end-to-end delivery, with Shopify integration pending to complete the checkout flow."
-            technologies="React, Vercel, Shopify API, HTML/CSS, JavaScript, GitHub"
+            technologies="React, React Hook Form, Vercel, Shopify API, HTML/CSS, JavaScript, GitHub"
             link="https://sku-suks-react-refactor.vercel.app/"
           />
           <section id="data-projects">
