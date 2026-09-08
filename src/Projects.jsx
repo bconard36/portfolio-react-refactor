@@ -50,7 +50,6 @@ const Projects = () => {
             technologies="React, Vercel, Shopify API, HTML/CSS, JavaScript, GitHub"
             link="https://sku-suks-react-refactor.vercel.app/"
           />
-          <hr />
           <section id="data-projects">
             <h2>Data & Analytics</h2>
             <p className="section-intro">
